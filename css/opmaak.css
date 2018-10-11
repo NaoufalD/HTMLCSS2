@@ -5,4 +5,26 @@
 body {
   background-color: lightblue;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+header {
+  background-image:url('https://i.imgur.com/wcfpG4t.png');
+  width: 1000px;
+  height: 125px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: right;
+  margin-right: 50px;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
 }
