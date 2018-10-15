@@ -26,7 +26,7 @@ footer {
   position: fixed;
   bottom: 0px;
   text-align: center;
-  width: auto;
+  width: 100%;
   margin-top: 10px;
 }
 nav {
@@ -58,6 +58,4 @@ ul li a:hover {
   color: #C0C0C0;
 }
 .wrapper {
-  margin: 0 auto 0 auto;
-  width: 80%;
 }
