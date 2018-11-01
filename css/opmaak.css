@@ -39,24 +39,35 @@ section {
   margin-right: 30px;
 }
 ul {
-  background: #;
-  padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #093A3E;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-right: 20px;
 }
 
-ul li {
-  background: #787878;
-  padding: 5px;
-  border: solid 2px white;
-  display: inline-block;
+li {
+    float: left;
 }
 
-ul li a {
-  color: white;
-  text-decoration: none;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-ul li a:hover {
-  color: #C0C0C0;
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 .wrapper {
 }
