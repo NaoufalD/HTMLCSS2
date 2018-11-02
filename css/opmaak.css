@@ -78,3 +78,6 @@ section article {
   padding: 10px;
   background: white;
 }
+iframe {
+  border: 8px outset #A2AEBB
+}
